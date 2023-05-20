@@ -8,7 +8,7 @@ a = Analysis(
     ['app.py'],
     pathex=[],
     binaries=[('.\\ressources\\*.dll', '.')],
-    datas=[('./ressources/*.otf', 'ressources'), ('./ressources/*.TTF', 'ressources')],
+    datas=[('./ressources/*.otf', 'ressources'), ('./ressources/*.ttf', 'ressources')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
