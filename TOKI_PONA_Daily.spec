@@ -7,7 +7,7 @@ block_cipher = None
 a = Analysis(
     ['app.py'],
     pathex=[],
-    binaries=[('C:\\Users\\LouisDUBOIS\\Documents\\TokyPona Daily\\venv\\Scripts\\*.dll', '.')],
+    binaries=[('.\\venv\\Scripts\\*.dll', '.')],
     datas=[('*.otf', '.'), ('*.TTF', '.')],
     hiddenimports=[],
     hookspath=[],
